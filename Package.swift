@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "RxWebKit", targets: ["RxWebKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift", from: "5.0.1")
+        .package(url: "https://github.com/ReactiveX/RxSwift", from: "5.0.0")
     ],
     targets: [
         .target(name: "RxWebKit", dependencies: ["RxSwift", "RxCocoa"], path: "RxWebKit")
